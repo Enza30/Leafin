@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51537039275AD7B3008B1161 /* CategoriesDB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51537035275AD7B3008B1161 /* CategoriesDB+CoreDataClass.swift */; };
+		5153703A275AD7B3008B1161 /* CategoriesDB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51537036275AD7B3008B1161 /* CategoriesDB+CoreDataProperties.swift */; };
+		5153703B275AD7B3008B1161 /* IncomeDB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51537037275AD7B3008B1161 /* IncomeDB+CoreDataClass.swift */; };
+		5153703C275AD7B3008B1161 /* IncomeDB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51537038275AD7B3008B1161 /* IncomeDB+CoreDataProperties.swift */; };
+		5153703E275AE0C7008B1161 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5153703D275AE0C7008B1161 /* ColorExtension.swift */; };
+		51537040275B2A68008B1161 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5153703F275B2A68008B1161 /* ProgressBar.swift */; };
 		51F8A932275916810009F244 /* LeafinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A931275916810009F244 /* LeafinApp.swift */; };
 		51F8A934275916810009F244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A933275916810009F244 /* ContentView.swift */; };
 		51F8A936275916820009F244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F8A935275916820009F244 /* Assets.xcassets */; };
 		51F8A939275916820009F244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F8A938275916820009F244 /* Preview Assets.xcassets */; };
+		51F8A941275916BB0009F244 /* Leafin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A93F275916BB0009F244 /* Leafin.xcdatamodeld */; };
+		51F8A943275917A70009F244 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A942275917A70009F244 /* PersistanceController.swift */; };
+		51F8A94627591C290009F244 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A94527591C290009F244 /* DashboardView.swift */; };
+		51F8A94A27591C5A0009F244 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A94927591C5A0009F244 /* BudgetView.swift */; };
+		51F8A94C27591C670009F244 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A94B27591C670009F244 /* HistoryView.swift */; };
+		51F8A94F27591D300009F244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A94E27591D300009F244 /* Utils.swift */; };
+		51F8A95127591E780009F244 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A95027591E780009F244 /* Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51537035275AD7B3008B1161 /* CategoriesDB+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoriesDB+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51537036275AD7B3008B1161 /* CategoriesDB+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoriesDB+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		51537037275AD7B3008B1161 /* IncomeDB+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IncomeDB+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51537038275AD7B3008B1161 /* IncomeDB+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IncomeDB+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5153703D275AE0C7008B1161 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		5153703F275B2A68008B1161 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		51F8A92E275916810009F244 /* Leafin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leafin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F8A931275916810009F244 /* LeafinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafinApp.swift; sourceTree = "<group>"; };
 		51F8A933275916810009F244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51F8A935275916820009F244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F8A938275916820009F244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51F8A940275916BB0009F244 /* Leafin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leafin.xcdatamodel; sourceTree = "<group>"; };
+		51F8A942275917A70009F244 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
+		51F8A94527591C290009F244 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		51F8A94927591C5A0009F244 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		51F8A94B27591C670009F244 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		51F8A94E27591D300009F244 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		51F8A95027591E780009F244 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +61,10 @@
 		51F8A925275916800009F244 = {
 			isa = PBXGroup;
 			children = (
+				51537035275AD7B3008B1161 /* CategoriesDB+CoreDataClass.swift */,
+				51537036275AD7B3008B1161 /* CategoriesDB+CoreDataProperties.swift */,
+				51537037275AD7B3008B1161 /* IncomeDB+CoreDataClass.swift */,
+				51537038275AD7B3008B1161 /* IncomeDB+CoreDataProperties.swift */,
 				51F8A930275916810009F244 /* Leafin */,
 				51F8A92F275916810009F244 /* Products */,
 			);
@@ -51,10 +81,16 @@
 		51F8A930275916810009F244 /* Leafin */ = {
 			isa = PBXGroup;
 			children = (
+				51F8A94D27591D140009F244 /* Helper */,
+				51F8A94827591C470009F244 /* History */,
+				51F8A94727591C390009F244 /* Budget */,
+				51F8A94427591C100009F244 /* Dashboard */,
 				51F8A931275916810009F244 /* LeafinApp.swift */,
 				51F8A933275916810009F244 /* ContentView.swift */,
 				51F8A935275916820009F244 /* Assets.xcassets */,
 				51F8A937275916820009F244 /* Preview Content */,
+				51F8A93F275916BB0009F244 /* Leafin.xcdatamodeld */,
+				51F8A942275917A70009F244 /* PersistanceController.swift */,
 			);
 			path = Leafin;
 			sourceTree = "<group>";
@@ -65,6 +101,41 @@
 				51F8A938275916820009F244 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51F8A94427591C100009F244 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A94527591C290009F244 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		51F8A94727591C390009F244 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A94927591C5A0009F244 /* BudgetView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		51F8A94827591C470009F244 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A94B27591C670009F244 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		51F8A94D27591D140009F244 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A94E27591D300009F244 /* Utils.swift */,
+				5153703D275AE0C7008B1161 /* ColorExtension.swift */,
+				51F8A95027591E780009F244 /* Sort.swift */,
+				5153703F275B2A68008B1161 /* ProgressBar.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +208,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F8A94C27591C670009F244 /* HistoryView.swift in Sources */,
 				51F8A934275916810009F244 /* ContentView.swift in Sources */,
+				51F8A95127591E780009F244 /* Sort.swift in Sources */,
+				51F8A94A27591C5A0009F244 /* BudgetView.swift in Sources */,
+				51F8A941275916BB0009F244 /* Leafin.xcdatamodeld in Sources */,
+				51F8A94627591C290009F244 /* DashboardView.swift in Sources */,
 				51F8A932275916810009F244 /* LeafinApp.swift in Sources */,
+				5153703C275AD7B3008B1161 /* IncomeDB+CoreDataProperties.swift in Sources */,
+				51F8A943275917A70009F244 /* PersistanceController.swift in Sources */,
+				5153703E275AE0C7008B1161 /* ColorExtension.swift in Sources */,
+				5153703B275AD7B3008B1161 /* IncomeDB+CoreDataClass.swift in Sources */,
+				5153703A275AD7B3008B1161 /* CategoriesDB+CoreDataProperties.swift in Sources */,
+				51537039275AD7B3008B1161 /* CategoriesDB+CoreDataClass.swift in Sources */,
+				51537040275B2A68008B1161 /* ProgressBar.swift in Sources */,
+				51F8A94F27591D300009F244 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +427,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51F8A93F275916BB0009F244 /* Leafin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51F8A940275916BB0009F244 /* Leafin.xcdatamodel */,
+			);
+			currentVersion = 51F8A940275916BB0009F244 /* Leafin.xcdatamodel */;
+			path = Leafin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 51F8A926275916800009F244 /* Project object */;
 }

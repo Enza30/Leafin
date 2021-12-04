@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoriesDB" representedClassName="CategoriesDB" syncable="YES">
+        <attribute name="budgetCategory" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="expenseCategory" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="isChecked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="namaCategory" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IncomeDB" representedClassName="IncomeDB" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="CategoriesDB" positionX="-54" positionY="-9" width="128" height="104"/>
+        <element name="IncomeDB" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>
